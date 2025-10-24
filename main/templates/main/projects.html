@@ -1,0 +1,125 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block title %} Проекты {% endblock %}
+
+{% block content%}
+    <div class="blue-area bg-img-container">
+      <div class="container mb-2">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-6 mb-6 my-auto d-flex flex-column justify-content-center"
+          >
+            <img
+              src="{% static '/main/images/big_icon.svg'%}"
+              class="img-fluid background-image"
+              alt="Твёрдый знак"
+              style="z-index:0;"
+            />
+            <h1 style="z-index:1;">FAQ</h1>
+            <p style="z-index:1;">Часто задаваемые вопросы и ответы на них</p>
+          </div>
+          <div class="col-md-6 mb-6 my-auto text-end"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-6 mb-6 d-flex flex-column">
+          <span class="gray-text">Блабла</span>
+          <h2 class="subtitle">Блабла</h3>
+          <p class="gray-text">блабла</p>
+          <button class="btn btn-danger my-auto">Блабла</button>
+        </div>
+        <div class="col-md-6 mb-6">
+          <div class="card right-gray-card border-0" id="rcard1"></div>
+          <div
+            class="card info-cards after-right-gray-card"
+            id="rcard2"
+          ></div>
+          <div class="card right-gray-card border-0" id="rcard3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4 double-container">
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}

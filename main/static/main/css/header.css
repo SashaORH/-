@@ -1,0 +1,50 @@
+.navbar-right-align {
+    margin-left: auto !important;
+}
+
+.bookmark-container {
+    position: relative;
+    padding: 8px 20px;
+    margin: 0 5px;
+  }
+  
+  .bookmark-container.active {
+    background-color: #05396d; /* Цвет фона закладки */
+    border: 1px solid #05396d; /* Обводка */
+  }
+  
+  /* Зубцы закладки (псевдоэлементы) */
+  .bookmark-container.active::before,
+  .bookmark-container.active::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 60px;
+    height: 10px;
+    background-color: inherit; /* Наследует цвет фона */
+    border: inherit; /* Наследует обводку */
+    border-top: none;
+    z-index: 1;
+  }
+  
+  .bookmark-container.active::before {
+    left: -1px;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+  }
+  
+  .bookmark-container.active::after {
+    right: -1px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+  }
+  
+  .nav-link {
+    position: relative;
+    z-index: 2; /* Чтобы текст был над закладкой */
+    color: white;
+    text-decoration: none !important;
+  }
+
+  .navbar-image {
+    width: 60px;
+    height: 50px;
+  }

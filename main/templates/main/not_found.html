@@ -1,0 +1,14 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block title %}404{% endblock title %}
+
+{% block content %}
+<div class="d-flex flex-column mt-4">
+    <div class="text-center">
+      <h2>Error 404</h2>
+      <p>Данный ресурс не был найден</p>
+      <a href="{% url 'homepage'%}" class="btn btn-danger mx-auto">Перейти на главную</a>
+    </div>
+  </div>
+{% endblock content %}

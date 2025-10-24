@@ -1,0 +1,230 @@
+{% extends "main/base.html" %}
+
+{% load static %}
+
+{% block title %} Главная {% endblock %}
+
+{% block content %}
+    <div class="blue-area">
+      <div class="container mb-2">
+        <div class="row justify-content-center">
+          <div class="col-md-6 mb-6 my-auto text-start">
+            <h1>Юридическое агенство "Твёрдый знак"</h1>
+            <p>
+              Общество с ограниченной ответственностью "Юридическое агенство
+              "Твердый Знак"
+            </p>
+            <a href="#" class="btn btn-danger">Обратиться</a>
+          </div>
+          <div class="col-md-6 mb-6 my-auto text-end">
+            <img
+              src="{% static '/main/images/big_icon.svg'%}"
+              class="img-fluid"
+              alt="Твёрдый знак"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row my-2">
+        <div class="card-group">
+          <div
+            class="card text-center border-0 red-area"
+            style="width: 18rem"
+          >
+            <div class="card-body">
+              <h5 class="card-title">Больше 10 лет работы</h5>
+              <p class="card-text">
+                Успешно предоставляем вам юридическую помощь
+              </p>
+              <p class="card-text">с 2017 года</p>
+            </div>
+          </div>
+          <div
+            class="card text-center border-0 blue-area"
+            style="width: 18rem"
+          >
+            <div class="card-body">
+              <h5 class="card-title">Детальная проработка всех ньюансов</h5>
+              <p class="card-text">Анализируем все риски и подводные камни</p>
+            </div>
+          </div>
+          <div
+            class="card text-center border-0 red-area"
+            style="width: 18rem"
+          >
+            <div class="card-body">
+              <h5 class="card-title">Фиксированные сроки и стоимомть</h5>
+              <p class="card-text">
+                Никаких неожиданных доплат или затягиваний процессов
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row my-4">
+        <div class="col-md-6 mb-6">
+          <img
+            src="{% static '/main/images/person.svg' %}"
+            alt="person"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6 mb-6 d-flex flex-column">
+          <span class="gray-text">О нас</span>
+          <h3 class="subtitle">Юридическое агенство "Твердый знак"</h3>
+          <p class="gray-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+            ipsa maiores. Laudantium labore debitis voluptates mollitia!
+            Consequuntur quo voluptates eius veritatis, id velit veniam, sequi
+            earum quidem voluptate minus reprehenderit.
+          </p>
+          <div class="container mt-auto">
+            <div class="row">
+              <div class="col-md-4 mb-4 checkmark-list">
+                <ul class="list-unstyled">
+                  <li>бубу</li>
+                  <li>бубу</li>
+                  <li>бубу</li>
+                </ul>
+              </div>
+              <div class="col-md-4 mb-4 checkmark-list">
+                <ul class="list-unstyled">
+                  <li>бубу</li>
+                  <li>бубу</li>
+                  <li>бубу</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card-group">
+            <div class="card border-0">
+              <div class="card-body">
+                <h3 class="card-title text-center subtitle stat">110</h5>
+                <p class="card-text text-center">Успешно завершенных дел</p>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="card-body">
+                <h3 class="card-title text-center subtitle stat">23+</h5>
+                <p class="card-text text-center">Чего-то там</p>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="card-body">
+                <h3 class="card-title text-center subtitle stat">42+</h5>
+                <p class="card-text text-center">IQ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row my-4">
+        <span class="gray-text">Блабла</span>
+        <h2 class="subtitle">Блабла</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 info-cards">
+          <div class="col">
+            <div class="card">
+              <img src="{% static '/main/images/chat.svg'%}" alt="..." class="m-2" />
+              <div class="card-body">
+                <h5 class="card-title">Бла Бла</h5>
+                <p class="card-text">Бла бла</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card blue-area">
+              <img
+                src="{% static '/main/images/pencil.svg'%}"
+                alt="..."
+                class="m-2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Бла Бла</h5>
+                <p class="card-text">Бла бла</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="{% static '/main/images/house.svg'%}" alt="..." class="m-2" />
+              <div class="card-body">
+                <h5 class="card-title">Бла Бла</h5>
+                <p class="card-text">Бла бла</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blue-area relative-area">
+      <div class="container my-2">
+        <div class="row">
+          <div class="col-md-6 mb-6">
+            <div class="card left-gray-card border-0"></div>
+            <div class="card info-cards after-left-gray-card">
+              <img src="{%static '/main/images/phone.svg'%}" alt="..." class="m-2" />
+              <div class="card-body">
+                <h5 class="card-title">Бла Бла</h5>
+                <p class="card-text">+8 (900) 400 00 00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-6 d-flex">
+            <h3 class="my-auto">бубу</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-6 mb-6 d-flex flex-column">
+          <span class="gray-text">Блабла</span>
+          <h2 class="subtitle">Блабла</h3>
+          <p class="gray-text">блабла</p>
+          <button class="btn btn-danger my-auto">Блабла</button>
+        </div>
+        <div class="col-md-6 mb-6">
+          <div class="card right-gray-card border-0" id="rcard1"></div>
+          <div
+            class="card info-cards after-right-gray-card"
+            id="rcard2"
+          ></div>
+          <div class="card right-gray-card border-0" id="rcard3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row oneblock">
+        <div class="col md-6 mb-6 gray-area rounded"></div>
+        <div class="col md-6 mb-6 blue-area d-flex flex-column rounded">
+          <span>Бубубуб</span>
+          <h2 class="subtitle">бубубубубубубу</h3>
+          <p>бубубубубубубубу</p>
+          <div class="container mt-auto">
+            <div class="row">
+              <div class="col-md-4 mb-4 red-checkmark-list">
+                <ul class="list-unstyled">
+                  <li>бубу</li>
+                  <li>бубу</li>
+                  <li>бубу</li>
+                </ul>
+              </div>
+              <div class="col-md-4 mb-4 red-checkmark-list">
+                <ul class="list-unstyled">
+                  <li>бубу</li>
+                  <li>бубу</li>
+                  <li>бубу</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock%}

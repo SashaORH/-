@@ -1,0 +1,7 @@
+.footer-nav-list li::before {
+    content: "> ";
+}
+
+footer .red-area {
+    padding: 15px;
+}

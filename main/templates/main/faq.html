@@ -1,0 +1,218 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block title %} FAQ {% endblock title %}
+
+{% block content %}
+    <div class="blue-area bg-img-container">
+      <div class="container mb-2">
+        <div class="row justify-content-center">
+          <div
+            class="col-md-6 mb-6 my-auto d-flex flex-column justify-content-center"
+          >
+            <img
+              src="{% static '/main/images/big_icon.svg'%}"
+              class="img-fluid background-image"
+              alt="Твёрдый знак"
+              style="z-index:0;"
+            />
+            <h1 style="z-index:1;">FAQ</h1>
+            <p style="z-index:1;">Часто задаваемые вопросы и ответы на них</p>
+          </div>
+          <div class="col-md-6 mb-6 my-auto text-end"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row oneblock">
+        <div class="col-md-6 mb-6 gray-area"></div>
+        <div class="col-md-6 mb-6 d-flex flex-column">
+          <span class="gray-text">бубубубуб</span>
+          <h2 class="subtitle">Бубубубубу</h3>
+          <div class="mt-auto">
+            <p class="gray-text">Бубубубубубу</p>
+            <div class="accordion accordion-flush" id="accordionFlush">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Вопрос 1?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlush"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended
+                    to demonstrate the <code>.accordion-flush</code> class.
+                    This is the first item’s accordion body.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Вопрос 2?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlush"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended
+                    to demonstrate the <code>.accordion-flush</code> class.
+                    This is the second item’s accordion body. Let’s imagine
+                    this being filled with some actual content.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Вопрос 3?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlush"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended
+                    to demonstrate the <code>.accordion-flush</code> class.
+                    This is the third item’s accordion body. Nothing more
+                    exciting happening here in terms of content, but just
+                    filling up the space to make it look, at least at first
+                    glance, a bit more representative of how this would look
+                    in a real-world application.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row oneblock">
+        <div class="col-md-6 mb-6 d-flex flex-column">
+          <span class="gray-text">бубубубуб</span>
+          <h2 class="subtitle">Бубубубубу</h3>
+          <div class="mt-auto">
+            <p class="gray-text">Бубубубубубу</p>
+            <div class="accordion accordion-flush" id="accordionFlush2">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush2-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    Вопрос 1?
+                  </button>
+                </h2>
+                <div
+                  id="flush2-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlush2"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended
+                    to demonstrate the <code>.accordion-flush</code> class.
+                    This is the first item’s accordion body.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush2-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Вопрос 2?
+                  </button>
+                </h2>
+                <div
+                  id="flush2-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlush2"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended
+                    to demonstrate the <code>.accordion-flush</code> class.
+                    This is the second item’s accordion body. Let’s imagine
+                    this being filled with some actual content.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush2-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Вопрос 3?
+                  </button>
+                </h2>
+                <div
+                  id="flush2-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlush2"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended
+                    to demonstrate the <code>.accordion-flush</code> class.
+                    This is the third item’s accordion body. Nothing more
+                    exciting happening here in terms of content, but just
+                    filling up the space to make it look, at least at first
+                    glance, a bit more representative of how this would look
+                    in a real-world application.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-6 gray-area"></div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-6 mb-6"></div>
+        <div class="col-md-6 mb-6 gray-area"></div>
+      </div>
+    </div>
+{% endblock content %}
